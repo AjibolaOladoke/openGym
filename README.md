@@ -6,7 +6,7 @@ We keep a working index for product and engineering, and openGym is the entry th
 
 ## Images
 
-[![openGym](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![openGym](images/preview.png)](https://github.com/Swift-Tech-Co/openGym)
 
 ## Why openGym
 
@@ -95,14 +95,14 @@ The full list of what changed release by release is in the [changelog](CHANGELOG
 You need Docker with Compose.
 
 ```bash
-git clone https://www.swifttechco.com
+git clone https://github.com/Swift-Tech-Co/openGym
 cd openGym
 cp .env.example .env
 docker compose pull      # prebuilt images, amd64 + arm64 (skip this to build from source)
 docker compose up -d
 ```
 
-Open https://www.swifttechco.com, tap **Create profile**, and you're in. The exercise animations are
+Open https://github.com/Swift-Tech-Co/openGym, tap **Create profile**, and you're in. The exercise animations are
 part of the image, so there's nothing else to download.
 
 To reach it from your phone with passkeys you need HTTPS on a domain; that's a two-line change in
@@ -122,7 +122,7 @@ Traefik and nginx, and there are separate guides for
 | Variable | What it does | Default |
 |---|---|---|
 | `RP_ID` | Hostname passkeys are bound to | `localhost` |
-| `ORIGIN` | Full URL the app is served from | `https://www.swifttechco.com |
+| `ORIGIN` | Full URL the app is served from | `https://github.com/Swift-Tech-Co/openGym |
 | `WEB_PORT` | Host port for the web UI | `8080` |
 | `NGINX_PORT` | Port the web container listens on inside the container | `80` |
 | `BACKEND` | Name of the API service that `/api` is proxied to | `api` |
@@ -259,7 +259,7 @@ two weeks after it.
 - **Pull requests** are welcome; start with
   [CONTRIBUTING.md](CONTRIBUTING.md).
 
-<a href="https://www.swifttechco.com">
+<a href="https://github.com/Swift-Tech-Co/openGym">
   
 </a>
 
@@ -298,10 +298,10 @@ the same way.
 paid tracker for you and you'd like to chip in, there's a coffee button below. A star, a bug report
 or a pull request helps just as much.
 
-<a href="https://www.swifttechco.com" target="_blank">
+<a href="https://github.com/Swift-Tech-Co/openGym" target="_blank">
 </a>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=duartesantos8/opengym&type=Date)](https://www.swifttechco.com)
+[![Star History Chart](https://api.star-history.com/svg?repos=duartesantos8/opengym&type=Date)](https://github.com/Swift-Tech-Co/openGym)
 
 ## License
 
@@ -332,13 +332,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/openGym
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
