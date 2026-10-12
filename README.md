@@ -362,3 +362,11 @@ Compiled and maintained from upstream [DuarteSantos8/openGym](https://github.com
 ---
 
 Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
+
+## Sources
+
+Compiled and maintained from upstream [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
