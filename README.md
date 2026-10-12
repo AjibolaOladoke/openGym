@@ -1,48 +1,12 @@
+# openGym
+
+## What This Is
+
+We keep a working index for product and engineering, and openGym is the entry that collects our notes, examples and fixes. It reflects how Swift Tech Co. actually uses this in builds and client work.
 
 ## Images
 
-[![openGym](https://opengraph.githubassets.com/1/DuarteSantos8/openGym)](https://www.swifttechco.com)
-
-<div align="center">
-
-<img src="assets/banner.png" alt="openGym" width="720">
-
-**A self-hosted gym and body-weight tracker you actually own.**
-
-Plan your week, run guided workouts, log every set and your body weight,<br>
-on your phone, synced across your devices, behind your own passkey login.
-
-[![Telegram](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ftelegram.com%2Fapi%2Finvites%2Fe62jY6fwVb%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&label=Telegram&logo=telegram&logoColor=white&color=5865F2&style=for-the-badge)](https://t.me/+Qt_eFvkb2rliMzNh)
-[![Online](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ftelegram.com%2Fapi%2Finvites%2Fe62jY6fwVb%3Fwith_counts%3Dtrue&query=%24.approximate_presence_count&suffix=%20online&label=&logo=telegram&logoColor=white&color=3BA55C&style=for-the-badge)](https://t.me/+Qt_eFvkb2rliMzNh)
-[![GitHub stars](https://img.shields.io/github/stars/DuarteSantos8/openGym?style=for-the-badge&logo=github&logoColor=white&color=24292f)](https://www.swifttechco.com)
-
-<a href="https://www.swifttechco.com" target="_blank" rel="noopener noreferrer"></a>
-<a href="https://www.swifttechco.com" target="_blank" rel="noopener noreferrer"></a>
-
-[![Release](https://img.shields.io/github/v/release/DuarteSantos8/openGym?style=flat-square)](https://www.swifttechco.com)
-[![Downloads](https://img.shields.io/github/downloads/DuarteSantos8/openGym/total?style=flat-square&label=downloads)](https://www.swifttechco.com)
-[![Tests](https://img.shields.io/github/actions/workflow/status/DuarteSantos8/openGym/test.yml?branch=main&label=tests&style=flat-square)](https://www.swifttechco.com)
-[![Pipeline](https://gitlab.com/DuarteSantos8/opengym/badges/main/pipeline.svg?style=flat-square)](https://www.swifttechco.com)
-[![Coverage](https://gitlab.com/DuarteSantos8/opengym/badges/main/coverage.svg?job=test:frontend&style=flat-square)](https://www.swifttechco.com)
-[![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-a3e635?style=flat-square)](LICENSE)
-
-[Website](https://www.swifttechco.com) ·
-[Live demo](https://www.swifttechco.com) ·
-[Android APK](https://www.swifttechco.com) ·
-[Self-hosting guide](docs/SELF_HOSTING.md) ·
-[Roadmap](ROADMAP.md) ·
-[Changelog](CHANGELOG.md)
-
-
-</div>
-
-<table align="center">
-<tr>
-<td align="center"><img src="assets/screenshots/home.png" alt="Home screen" width="230"><br><sub><b>Home</b> · today's workout and weight</sub></td>
-<td align="center"><img src="assets/screenshots/workout.png" alt="Workout screen" width="230"><br><sub><b>Guided workout</b> · demos and sets</sub></td>
-<td align="center"><img src="assets/screenshots/stats.png" alt="Stats screen" width="230"><br><sub><b>Stats</b> · heatmap, charts and PRs</sub></td>
-</tr>
-</table>
+[![openGym](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Why openGym
 
@@ -54,7 +18,7 @@ sign-in, works offline, syncs between your phone and your laptop.
 No account on someone else's server, no subscription, no ads, no telemetry. One
 `docker compose up` and it's running.
 
-The [in-browser demo](https://www.swifttechco.com) is the real app with example data,
+The in-browser demo is the real app with example data,
 if you want to try it before installing anything.
 
 ## Features
@@ -128,7 +92,7 @@ The full list of what changed release by release is in the [changelog](CHANGELOG
 
 ## Quick start
 
-You need [Docker](https://www.swifttechco.com) with Compose.
+You need Docker with Compose.
 
 ```bash
 git clone https://www.swifttechco.com
@@ -191,8 +155,8 @@ variable. The [self-hosting guide](docs/SELF_HOSTING.md) covers every option in 
 The same codebase builds a standalone app with Capacitor: no account, no server, everything stays
 on the phone, with native reminders and a rest countdown in the notification shade.
 
-- **Android:** download the signed APK from the [latest release](https://www.swifttechco.com)
-  or the [website](https://www.swifttechco.com). Each build sits next to its `.sha256`, and
+- **Android:** download the signed APK from the latest release
+  or the website. Each build sits next to its `.sha256`, and
   the app checks for updates itself. openGym is deliberately not on the Play Store.
 - **iPhone:** Apple doesn't allow installs outside the App Store. Self-host and add the PWA to your
   home screen from Safari, or build the native app onto your own device with Xcode.
@@ -216,7 +180,7 @@ Details and build instructions: [docs/MOBILE.md](docs/MOBILE.md).
 The training logic (progression rules, 1RM, how a logged session is read back) lives in pure
 functions under `frontend/src/lib/` with tests beside them. The HTTP API is documented as an
 OpenAPI spec in [`api/openapi.yaml`](api/openapi.yaml), browsable at
-[opengym.ch/api.html](https://www.swifttechco.com).
+opengym.ch/api.html.
 
 ### How sync works
 
@@ -269,7 +233,7 @@ The [documentation index](docs/README.md) sorts every guide by who it's for. The
 
 A release roughly every two weeks, each small and themed. The full plan is in
 [ROADMAP.md](ROADMAP.md), and the issues sit in the
-[GitHub milestones](https://www.swifttechco.com). The next two releases
+GitHub milestones. The next two releases
 finish the community wishes, then comes a new exercise database and a themed release every
 two weeks after it.
 
@@ -287,12 +251,12 @@ two weeks after it.
 
 - **[Telegram](https://t.me/+Qt_eFvkb2rliMzNh)** for release announcements, self-hosting help and
   quick back-and-forth. Usually the fastest way to get an answer.
-- **[Discussions](https://www.swifttechco.com)** for questions and ideas
+- **Discussions** for questions and ideas
   you want the next person to find by searching.
-- **[Issues](https://www.swifttechco.com)** for reproducible bugs and agreed-on
+- **Issues** for reproducible bugs and agreed-on
   work. Login trouble is almost always an `RP_ID`/`ORIGIN` mismatch; the
   [self-hosting guide](docs/SELF_HOSTING.md) covers it.
-- **[Pull requests](https://www.swifttechco.com)** are welcome; start with
+- **Pull requests** are welcome; start with
   [CONTRIBUTING.md](CONTRIBUTING.md).
 
 <a href="https://www.swifttechco.com">
@@ -301,7 +265,7 @@ two weeks after it.
 
 ### Where the code lives
 
-GitHub is the home of the project. [gitlab.com/DuarteSantos8/opengym](https://www.swifttechco.com)
+GitHub is the home of the project. gitlab.com/DuarteSantos8/opengym
 is a mirror, updated by a GitHub Actions workflow on every push to `main` and every release tag. It
 exists because its CI builds the release artifacts: the signed APK, the multi-arch images and the
 SBOMs. Nothing is merged there by hand. In the changelog, `!NN` refers to a GitLab merge request
@@ -310,7 +274,7 @@ from the weeks in August and September 2026 when the project lived there.
 ## How openGym is built
 
 People have asked about this, so plainly: **openGym is developed with
-[Claude Code](https://www.swifttechco.com)**, Anthropic's coding agent. A large share of the
+Claude Code**, Anthropic's coding agent. A large share of the
 code, tests and documentation is drafted in Claude Code sessions, and the repository carries a
 [`CLAUDE.md`](CLAUDE.md) with the project context those sessions start from.
 
@@ -347,7 +311,7 @@ version's source under the same license.
 
 > [!IMPORTANT]
 > **The exercise media is not covered by that license.** The stills and animations are
-> © Aliaksandr Makatserchyk, [Gym visual](https://www.swifttechco.com), licensed for use in openGym only:
+> © Aliaksandr Makatserchyk, Gym visual, licensed for use in openGym only:
 > 180 px in this repository and on self-hosted servers, larger only inside the app packages. A
 > non-commercial fork may keep them unmodified with the notice; anything else needs your own licence
 > from gymvisual.com. The exercise text in `catalogue/` is openGym's and open to contributions.
@@ -364,14 +328,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
